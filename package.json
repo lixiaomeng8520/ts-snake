@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ".\\node_modules\\.bin\\tsc -w && .\\node_modules\\.bin\\live-server dist"
+    "start": "concurrently \"tsc -w\" \"live-server dist\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/lixiaomeng8520/ts-snake#readme",
   "dependencies": {},
   "devDependencies": {
+    "concurrently": "^5.3.0",
     "live-server": "^1.2.1",
     "typescript": "^4.0.2"
   }
