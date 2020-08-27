@@ -1,0 +1,19 @@
+{
+  "name": "ts-snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lixiaomeng8520/ts-snake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lixiaomeng8520/ts-snake/issues"
+  },
+  "homepage": "https://github.com/lixiaomeng8520/ts-snake#readme"
+}
