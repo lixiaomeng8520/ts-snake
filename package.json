@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ".\\node_modules\\.bin\\tsc -w && .\\node_modules\\.bin\\live-server dist"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/lixiaomeng8520/ts-snake/issues"
   },
-  "homepage": "https://github.com/lixiaomeng8520/ts-snake#readme"
+  "homepage": "https://github.com/lixiaomeng8520/ts-snake#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^4.0.2"
+  }
 }
