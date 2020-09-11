@@ -8,11 +8,7 @@ export default class Food extends Draw implements IDraw {
         super(color, ctx)
         this.body = body
     }
-
-    reBuild() {
-        
-    }
-
+    
     draw(): void {
         this.fillRect(new Pos(this.body.x, this.body.y), new Pos(1, 1))
     }

@@ -65,6 +65,8 @@ export default class Game {
 
             if (this.snake.isCollisionOther(this.food.body)) {
                 console.log('吃到食物了')
+                // 重新生成
+                
             } else {
                 this.snake.pop()
             }
